@@ -1,5 +1,8 @@
 
-pro1=list(input())
-pro2=list(input())
+pro1=[]
+print(type(pro1))
+for i in range(0,3):
+    pro1.append(input())
 
-print(pro1,pro2)
+
+print(pro1)
